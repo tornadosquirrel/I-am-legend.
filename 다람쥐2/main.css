@@ -1,0 +1,38 @@
+/* 글꼴이다 >>> font-family: 'Hahmlet', serif; */
+
+body {
+  background-color: black;  
+}
+
+.hello {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: 'Hahmlet', serif;
+  font-size: 100px;
+  color : white;
+  margin-top : 200px;
+  margin-bottom: 10px;
+}
+
+.reverse {
+  font-size: 100px;
+  display : flex;
+  margin : 0 auto;
+  perspective: 300px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 470px;
+  height: 100px;
+}
+
+.rehello {
+  line-height: 80px;
+  font-family: 'Hahmlet', serif;
+  text-align: center;
+  color : white;
+  transform: rotate3d(-1, 0, 0, 180deg);
+  opacity: 40%;
+}
