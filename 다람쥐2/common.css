@@ -1,0 +1,26 @@
+/* 글꼴이다 >>> font-family: 'Hahmlet', serif; */
+
+body {
+  min-height: 100vh;
+  margin : 0;
+  background-color: black;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello {
+  font-family: 'Hahmlet', serif;
+  font-size: 15vh;
+  color : white;
+}
+
+.rehello {
+  font-size: 15vh;
+  line-height: 20vh;
+  font-family: 'Hahmlet', serif;
+  color : white;
+  transform: rotate3d(-1, 0, 0, 180deg);
+  opacity: 40%;
+}
